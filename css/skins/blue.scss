@@ -1,0 +1,295 @@
+$colorSite: #2196f3;
+$colorText: #2196f3; 
+$colorLogo: #2196f3;
+
+
+.main-container{
+	.aside{
+		.nav-toggler{
+			span{
+				background: $colorSite;
+				&:before{
+					background: $colorSite;
+				}
+				&:after{
+					background: $colorSite;
+				}
+			}
+		}
+		.logo{
+			a{
+				&:before{
+					border-top: 4px solid $colorLogo;
+				    border-left: 4px solid $colorLogo;
+				}
+				&:after{
+					border-bottom: 4px solid $colorLogo;
+				    border-right: 4px solid $colorLogo;
+				}
+			}
+		}
+		.nav{
+			li{
+				a{
+					&:not(.active):hover{
+						color: $colorText;
+					}
+				}
+				.active{
+					color: $colorText;
+				}
+			}
+		}
+	}
+	.main-content{
+		.home{
+			.container{
+				.intro{
+					.social-network{
+						a{
+							background: $colorSite;
+						}
+					}
+				}
+			}
+		}
+		.about{
+			.container{
+				.row{
+					.section-title{
+						h2{
+							&:before{
+								background: $colorSite;
+							}
+							&:after{
+								background: $colorSite;
+							}
+						}
+					}
+					.about-content{
+						.box{
+							.about-text{
+								h3{
+									span{
+										color: $colorText;
+									}
+								}
+							}
+							.button{
+								.small-box{
+									.buttons{
+										.btn{
+											background: $colorSite;
+										}
+									}
+								}
+							}
+							.education{
+								.small-box{
+									.timeline-box{
+										.timeline{
+											.timeline-item{
+												.circle-dot{
+													background: $colorSite;
+												}
+											}
+										}
+									}
+								}
+							}
+							.experience{
+								.small-box{
+									.timeline{
+										.timeline-item{
+											&:before{
+												background: $colorSite;
+											}
+											.circle-dot{
+												background: $colorSite;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.skill{
+			.container{
+				.row{
+					.section-title{
+						h2{
+							&:before{
+								background: $colorSite;
+							}
+							&:after{
+								background: $colorSite;
+							}
+						}
+					}
+					.skill-item{
+						.skill-item-inner{
+							&:hover{
+								.icon{
+									background: $colorText;
+								}
+							}
+							.icon{
+								.fa{
+									color: $colorText;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.product{
+			.container{
+				.row{
+					.section-title{
+						h2{
+							&:before{
+								background: $colorSite;
+							}
+							&:after{
+								background: $colorSite;
+							}
+						}
+					}
+					.product-filter{
+						.active{
+							color: $colorText;
+					    	border-color: $colorSite;
+						}
+					}
+					.product-item{
+						.product-item-inner{
+							.product-info{
+								.icon{
+									.fa{
+										color: $colorText;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.blog{
+			.container{
+				.row{
+					.section-title{
+						h2{
+							&:before{
+								background: $colorSite;
+							}
+							&:after{
+								background: $colorSite;
+							}
+						}
+					}
+					.blog-item{
+						.blog-item-inner{
+							.blog-img{
+								.blog-date{
+									background: $colorSite;
+								}
+							}
+							.blog-infor{
+								.blog-tag{
+									a{
+										color: $colorText;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.contact{
+			.container{
+				.row{
+					.section-title{
+						h2{
+							&:before{
+								background: $colorSite;
+							}
+							&:after{
+								background: $colorSite;
+							}
+						}
+					}
+					.contact-info-item{
+						.icon{
+							.fa{
+								color: $colorText;
+							}
+						}
+					}
+					.contact-form{
+						.box{
+							.col-12{
+								.btn{
+									background: $colorSite;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.lightbox{
+	.lightbox-controls{
+		.prev-item{
+			.fa{
+				color: $colorText;
+			}
+		}
+		.next-item{
+			.fa{
+		    	color: $colorText;
+			}
+		}
+	}
+}
+
+
+.dark{
+	.main-container{
+		.aside{
+			.nav{
+				li{
+					a{
+						&:not(.active):hover{
+							color: $colorText;
+						}
+					}
+					.active{
+						color: $colorText;
+					}
+				}
+			}
+		}
+		.main-content{
+			.product{
+				.container{
+					.row{
+						.product-filter{
+							.active{
+								color: $colorText;
+						    	border-color: $colorSite;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
